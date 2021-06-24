@@ -12,7 +12,7 @@ public class Task {
         System.out.println(db.getAvgReviews("Casa Enrique"));
     }
     public String readFile(String filename) {
-        String contents = ""; //delete
+        String contents = ""; //delete this later 
 
         try {
             InputStream in = new BufferedInputStream(new FileInputStream(filename));
