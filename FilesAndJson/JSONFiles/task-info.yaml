@@ -3,7 +3,7 @@ files:
 - name: src/Task.java
   visible: true
   placeholders:
-  - offset: 1126
+  - offset: 1135
     length: 40
     placeholder_text: '/* TODO: create a JSON object with the contents of  "filename".
       You can use the method below to help you read the file. */'
@@ -16,7 +16,7 @@ files:
     encrypted_possible_answer: |-
       lename) {
               JsonObject obj = (JsonObject) Jsoner.deserialize(readFile(filename), new JsonObject());
-  - offset: 1126
+  - offset: 1135
     length: 40
     placeholder_text: /* Complete this using the parameter passed to this method.
       */
@@ -42,7 +42,7 @@ files:
               } catch(IOException e) {
                   e.printStackTrace();
                   Syst
-  - offset: 1126
+  - offset: 1135
     length: 40
     placeholder_text: /* Put in code to read the file line by line. */
     initial_state:
@@ -53,7 +53,7 @@ files:
     status: Failed
     encrypted_possible_answer: /* Complete this using the parameter passed to this
       method. */
-  - offset: 1126
+  - offset: 1135
     length: 40
     placeholder_text: /* Put in the variable that should be returned. */
     initial_state:
