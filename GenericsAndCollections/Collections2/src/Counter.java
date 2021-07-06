@@ -2,20 +2,34 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class Counter<E> {
-    private HashMap/* TODO 
-The HashMap should accomodate a generic class for the keys and Integer for the value*/ counts;
+    private HashMap<String, Integer> counts = new HashMap;
+
+            /* TODO
+The HashMap should accomodate a generic class for the keys and Integer for the value counts;*/
+
 
     public Counter(E[] things){
 /* TODO
 Loop through the elements of "things" and use the HashMap "counts"
 to store the elements of things as keys, and the number of times they
-appear in the array as values. Check the instructions. */ }
+appear in the array as values. Check the instructions. */
+        counts = new HashMap<E, Integer>();
+        counts.put(things)
+        this.counts = new HashMap<>();
+        int counter = 0;
+        for (int i = 0; i < things.length(); i++) {
+            counts.put(things[i]);
+        }
     }
+
 
     public Integer getCount(E element){
       /* TODO 
 This just returns the specific count for an element. It is a wrapper
 for a getting the value of the HashMap given the key "element" */);
+        E.getindex(element);
+    return Counter();
+
     }
 
     public int getSize(){

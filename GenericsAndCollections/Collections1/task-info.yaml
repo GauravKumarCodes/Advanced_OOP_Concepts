@@ -189,7 +189,7 @@ files:
                   deck.add(new Card<String, String>("Jack", suit));
                   deck.add(new Card<String, String>("Queen", suit));
                   deck.add(new Card<String, String>("King", suit));
-  - offset: 1134
+  - offset: 1142
     length: 177
     placeholder_text: |-
       /* TODO
@@ -208,7 +208,7 @@ files:
                   return deck.remove(idx);
               else
                   return null;
-  - offset: 1587
+  - offset: 1595
     length: 67
     placeholder_text: '/* TODO: Return the size of the deck (number of cards left
       in it)*/'
@@ -221,7 +221,7 @@ files:
     encrypted_possible_answer: |2-
 
               return this.deck.size();
-  - offset: 1745
+  - offset: 1753
     length: 75
     placeholder_text: "/* TODO \nReturn a new DeckIterator with this instance in the\
       \ constructor.*/"

@@ -12,7 +12,7 @@ public class Deck implements Iterable<Card>{
 This constructor initializes the deck variable with
 all the cards of a deck, except a joker.
 The suits array may help you.*/
-        this.deck = new List<Card>;
+        this.deck = new LinkedList<Card>();
 
         for (int i = 0; i < 3; i++) {
             for (int j = 1; j <= 13; j++) {

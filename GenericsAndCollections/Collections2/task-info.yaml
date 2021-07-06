@@ -13,7 +13,7 @@ files:
       offset: 1100
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: '  Counter<String> words = new Counter<>(text.split("
       ")'
   text: |-
@@ -72,8 +72,8 @@ files:
 - name: src/Counter.java
   visible: true
   placeholders:
-  - offset: 94
-    length: 95
+  - offset: 135
+    length: 104
     placeholder_text: "/* TODO \nThe HashMap should accomodate a generic class for\
       \ the keys and Integer for the value*/"
     initial_state:
@@ -81,9 +81,9 @@ files:
       offset: 94
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: <E,Integer>
-  - offset: 231
+  - offset: 284
     length: 202
     placeholder_text: |-
       /* TODO
@@ -94,13 +94,13 @@ files:
       length: 202
       offset: 231
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: "        counts = new HashMap<>();\n        for(E element:things){\n\
       \            if(counts.containsKey(element)) {\n                counts.put(element,counts.get(element)+1);\n\
       \            } else {\n                counts.put(element,1);\n            }\n\
       \       "
-  - offset: 489
+  - offset: 773
     length: 143
     placeholder_text: "/* TODO \nThis just returns the specific count for an element.\
       \ It is a wrapper\nfor a getting the value of the HashMap given the key \"element\"\
@@ -110,9 +110,9 @@ files:
       offset: 489
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: '  return counts.get(element'
-  - offset: 737
+  - offset: 1073
     length: 55
     placeholder_text: "/* TODO \nReturns the most frequent key in the HashMap*/"
     initial_state:
@@ -120,7 +120,7 @@ files:
       offset: 737
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       {
               int max=0;
@@ -146,5 +146,8 @@ files:
     \    }\n\n    public E mostFrequent()/* TODO \nReturns the most frequent key in\
     \ the HashMap*/t;\n    }\n}\n"
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Compilation Failed
+  time: Tue, 06 Jul 2021 02:57:27 UTC
 record: -1
