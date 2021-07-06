@@ -12,7 +12,7 @@ files:
       length: 150
       offset: 1100
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: '  Counter<String> words = new Counter<>(text.split("
       ")'
@@ -80,7 +80,7 @@ files:
       length: 95
       offset: 94
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: <E,Integer>
   - offset: 231
@@ -109,7 +109,7 @@ files:
       length: 143
       offset: 489
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: '  return counts.get(element'
   - offset: 737

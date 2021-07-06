@@ -3,8 +3,8 @@ files:
 - name: src/Task.java
   visible: true
   placeholders:
-  - offset: 510
-    length: 66
+  - offset: 525
+    length: 78
     placeholder_text: |-
       /* TODO
       Compete a for loop that prints every card
@@ -13,12 +13,12 @@ files:
       length: 66
       offset: 510
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       c : d)
                   System.out.print(c+", ");
-  - offset: 640
+  - offset: 715
     length: 87
     placeholder_text: "/* TODO \nThis should compute the sum of values of the cards\
       \ in an ArrayList of cards.*/"
@@ -170,7 +170,7 @@ files:
 - name: src/Deck.java
   visible: true
   placeholders:
-  - offset: 243
+  - offset: 269
     length: 133
     placeholder_text: "/* TODO \nThis constructor initializes the deck variable with\n\
       all the cards of a deck, except a joker.\nThe suits array may help you.*/"
@@ -178,7 +178,7 @@ files:
       length: 133
       offset: 243
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |2
               this.deck=new LinkedList<Card>();
@@ -189,7 +189,7 @@ files:
                   deck.add(new Card<String, String>("Jack", suit));
                   deck.add(new Card<String, String>("Queen", suit));
                   deck.add(new Card<String, String>("King", suit));
-  - offset: 421
+  - offset: 1134
     length: 177
     placeholder_text: |-
       /* TODO
@@ -208,7 +208,7 @@ files:
                   return deck.remove(idx);
               else
                   return null;
-  - offset: 628
+  - offset: 1587
     length: 67
     placeholder_text: '/* TODO: Return the size of the deck (number of cards left
       in it)*/'
@@ -221,7 +221,7 @@ files:
     encrypted_possible_answer: |2-
 
               return this.deck.size();
-  - offset: 762
+  - offset: 1745
     length: 75
     placeholder_text: "/* TODO \nReturn a new DeckIterator with this instance in the\
       \ constructor.*/"
@@ -248,8 +248,8 @@ files:
 - name: src/DeckIterator.java
   visible: true
   placeholders:
-  - offset: 57
-    length: 43
+  - offset: 80
+    length: 52
     placeholder_text: |-
       /* TODO
       Implement the Iterator interface */
@@ -260,7 +260,7 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: implements Iterator<E>
-  - offset: 148
+  - offset: 180
     length: 36
     placeholder_text: |-
       /* TODO
@@ -272,7 +272,7 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: '        this.d = d;'
-  - offset: 244
+  - offset: 292
     length: 61
     placeholder_text: |-
       /* TODO
@@ -284,8 +284,8 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: ' return d.size()>0;'
-  - offset: 357
-    length: 37
+  - offset: 401
+    length: 94
     placeholder_text: |-
       /* TODO
       Deal a card and return it. */
@@ -293,7 +293,7 @@ files:
       length: 37
       offset: 357
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: return (E) this.d.dealCard();
   text: |

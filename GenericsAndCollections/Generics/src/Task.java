@@ -9,7 +9,7 @@ public class Task {
             numbers.add(1,0.5);
             numbers.add(2,0.8);
             System.out.println("Drawing 10 times, mostly twos");
-            System.out.println(numbers.drawMany((10)));
+            System.out.println(numbers.drawMany(10));
 
             bingo.add(new BingoChip<String,Integer>("N",5));
             bingo.add(new BingoChip<String,Integer>("I",73));
