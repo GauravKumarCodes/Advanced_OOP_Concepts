@@ -35,7 +35,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: new Racer(c2)
-  - offset: 918
+  - offset: 838
     length: 104
     placeholder_text: |-
       /* TODO
@@ -50,7 +50,7 @@ files:
       service.submit(racer1);
               service.submit(racer2);
               service.shutdown();
-  - offset: 1031
+  - offset: 951
     length: 136
     placeholder_text: |-
       /* TODO

@@ -19,10 +19,8 @@ Create a Runnable with c2*/
         Racer r2 = new Racer(c2); //Keith
         initExecutorService();
         try {
-            System.out.println("begin");
             service.execute(r1);
             service.execute(r2);
-            System.out.println("end");
         } finally {
             if (service != null) service.shutdown();
         }
