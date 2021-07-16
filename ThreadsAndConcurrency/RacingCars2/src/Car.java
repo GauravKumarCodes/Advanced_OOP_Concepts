@@ -27,7 +27,6 @@ move should subtract  'miles' from the miles left to travel and add 'miles' to t
 
     public void charge(){
         this.miles = maxMiles;
-        //System.out.println("Charging " +  this.name);
     }
 
     public String toString(){

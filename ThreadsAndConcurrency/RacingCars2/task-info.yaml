@@ -140,7 +140,7 @@ files:
 - name: src/Car.java
   visible: true
   placeholders:
-  - offset: 979
+  - offset: 923
     length: 66
     placeholder_text: "/* TODO \nExact same methods and constructor as the Car in\
       \ task 1*/"

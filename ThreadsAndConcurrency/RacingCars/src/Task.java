@@ -18,8 +18,7 @@ to each thread.  It is your job to figure out which are the Runnables.*/
         Thread t2 = new Thread(r2);
         t1.start();
         t2.start();
-//        t1.join();
-//        t2.join();
+
 
     }
 }
