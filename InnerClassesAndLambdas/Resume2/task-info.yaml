@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 64
-    length: 1195
+    length: 1193
     placeholder_text: |-
       /* TODO */
       Copy the Task from task 2 here and add experiences where the end years are not in order. Watch it print the resume with the dates in order from most recent to least.
@@ -184,7 +184,7 @@ files:
       import java.util.Comparator;
       import java.util.List;
       import java.util.PriorityQueue;
-  - offset: 3237
+  - offset: 3198
     length: 94
     placeholder_text: |-
       /* TODO */
@@ -223,7 +223,7 @@ files:
                   return fromYear+" - "+toYear+":"+title;
               }
           }
-  - offset: 3333
+  - offset: 3294
     length: 79
     placeholder_text: |-
       /* TODO */
@@ -235,7 +235,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '    private Person p;'
-  - offset: 3414
+  - offset: 3375
     length: 86
     placeholder_text: |-
       /* TODO */
@@ -247,7 +247,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '    private List<Education> ed;'
-  - offset: 3502
+  - offset: 3463
     length: 78
     placeholder_text: |-
       /* TODO */
@@ -259,7 +259,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '    private PriorityQueue<Experience> ex;'
-  - offset: 3582
+  - offset: 3543
     length: 109
     placeholder_text: |-
       /* TODO */
@@ -271,7 +271,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '        this.p = p;'
-  - offset: 3634
+  - offset: 3595
     length: 57
     placeholder_text: |-
       /* TODO */
@@ -283,7 +283,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '        ed = new ArrayList<>();'
-  - offset: 3692
+  - offset: 3653
     length: 134
     placeholder_text: |-
       /* TODO */
@@ -301,7 +301,7 @@ files:
                       return t1.toYear - experience.toYear;
                   }
               });
-  - offset: 3829
+  - offset: 3790
     length: 105
     placeholder_text: |-
       /* TODO */
@@ -313,7 +313,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '    public PriorityQueue getExperience(){return ex;}'
-  - offset: 3937
+  - offset: 3898
     length: 133
     placeholder_text: |-
       /* TODO */
@@ -378,5 +378,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 22 Jul 2021 00:23:54 UTC
+  time: Fri, 23 Jul 2021 14:46:54 UTC
 record: -1

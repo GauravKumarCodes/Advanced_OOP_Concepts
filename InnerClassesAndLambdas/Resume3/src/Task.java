@@ -24,7 +24,7 @@ public class Task {
         Resume.Experience experience = new Resume.Experience("Software Engineer", 2019, 2021);
 
         r.addExperience(experience);
-        //       r.addExperience(new Resume.Experience("Medival Historian", 2015, 2016));
+        r.addExperience(new Resume.Experience("Medival Historian", 2015, 2016));
 
 
         /* TODO */

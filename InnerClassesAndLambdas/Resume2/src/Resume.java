@@ -66,8 +66,7 @@ public class Resume {
         this.experienceList = new PriorityQueue<Experience>(new Comparator<Experience>() {
             @Override
             public int compare(Experience ex1, Experience ex2) {
-                int compare = ex2.toYear - ex1.toYear;
-                return compare;
+                return ex2.toYear - ex1.toYear;
             }
         });
     }

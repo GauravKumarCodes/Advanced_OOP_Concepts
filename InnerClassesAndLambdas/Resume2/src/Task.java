@@ -6,9 +6,7 @@ public class Task {
         /* TODO */
 //Create an education object. Schoo is NEIU, major is Computer Science.
 
-
         Resume.Education edu = r.new Education("NEIU", "Computer Science");//accessing r instance of resume class
-
 
         /* TODO */
 //add this education object to the resume "r"
